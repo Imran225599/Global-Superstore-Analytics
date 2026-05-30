@@ -1,16 +1,30 @@
-🌍 Global Superstore Sales Analysis
-📌 Project Overview
-End-to-end data analysis of 51,290+ global retail orders across multiple markets, regions, and product categories — covering data cleaning, feature engineering, SQL querying, Excel summaries, Python EDA, and Power BI dashboarding.
+# 🌍 Global Superstore Sales Analysis
 
-🛠️ Tools & Technologies
-ToolPurposePython (Pandas, Matplotlib, Seaborn)Data cleaning, EDA, feature engineering, visualizationSQL ServerBusiness queries, KPI extraction, loss analysisPower BIInteractive dashboard, visual storytellingExcelPivot tables — category, region, segment summaries
+## 📌 Project Overview
 
-📁 Project Structure
+End-to-end data analysis of **51,290+ global retail orders** across multiple markets, regions, and product categories — covering data cleaning, feature engineering, SQL querying, Excel summaries, Python EDA, and Power BI dashboarding.
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| Python (Pandas, Matplotlib, Seaborn) | Data cleaning, EDA, feature engineering, visualization |
+| SQL Server | Business queries, KPI extraction, loss analysis |
+| Power BI | Interactive dashboard, visual storytelling |
+| Excel | Pivot tables — category, region, segment summaries |
+
+---
+
+## 📁 Project Structure
+
+
 Global-Superstore-Analytics/
 │
 ├── Data/
 │   ├── Global_Superstore2.csv              # Raw dataset
-│   └── Global_Superstore_Final.csv         # Cleaned dataset (Python output)
+│   └── Global_Superstore_Final.csv         # Cleaned dataset
 │
 ├── notebooks/
 │   └── Global_Superstore_Analysis.ipynb    # Python EDA + cleaning + charts
@@ -24,100 +38,131 @@ Global-Superstore-Analytics/
 ├── dashboards/
 │   └── Global_Superstore_Dashboard.pbix    # Power BI dashboard
 │
-├── images/
-│   ├── Sales Overview.png                  # Power BI — Sales overview page
-│   ├── Category wise Sales.png             # Power BI — Category analysis
-│   ├── Region wise Sales + Profit.png      # Power BI — Region analysis
-│   ├── Segment wise Sales + Profit.png     # Power BI — Segment analysis
-│   ├── Detailed Analysis.png               # Power BI — Detailed view
-│   ├── chart1_category_sales_profit.png    # Python — Category Sales & Profit
-│   ├── chart2_region_profit.png            # Python — Region-wise Profit
-│   ├── chart3_yearly_trend.png             # Python — Year-wise Trend
-│   ├── chart4_loss_subcategory.png         # Python — Loss Sub-Categories
-│   ├── chart5_segment_distribution.png     # Python — Segment Distribution
-│   └── chart6_shipping_mode.png            # Python — Shipping Mode Analysis
+├── images/                                 # All screenshots and charts
 │
 └── README.md
 
-📸 Dashboard Preview
-Power BI — Sales Overview
-Show Image
-Power BI — Category wise Sales
-Show Image
-Power BI — Region wise Sales & Profit
-Show Image
-Power BI — Detailed Analysis
-Show Image
 
-📊 Excel Pivot Analysis
-Category wise Sales & Profit
-Show Image
-Region wise Sales & Profit
-Show Image
-Segment wise Sales & Profit
-Show Image
-Ship Mode wise Orders Count
-Show Image
+---
 
-🐍 Python Charts
-Category-wise Sales & Profit
-Show Image
-Region-wise Profit Analysis
-Show Image
-Year-wise Sales & Profit Trend
-Show Image
-Loss-Making Sub-Categories & Avg Discount
-Show Image
-Segment-wise Distribution
-Show Image
-Shipping Mode Analysis
-Show Image
+## 📸 Power BI Dashboard Preview
 
-🔄 Project Workflow
+### Sales Overview
+![Sales Overview](images/Sales%20Overview.png)
+
+### Category wise Sales
+![Category wise Sales](images/Category%20wise%20Sales.png)
+
+### Region wise Sales & Profit
+![Region wise Sales](images/Region%20wise%20Sales%20+%20Profit.png)
+
+### Detailed Analysis
+![Detailed Analysis](images/Detailed%20Analysis.png)
+
+---
+
+## 📊 Excel Pivot Analysis
+
+### Category wise Sales & Profit
+![Category wise Sales](images/Category_wise_Sales.png)
+
+### Region wise Sales & Profit
+![Region wise Sales](images/Region_wise_Sales___Profit.png)
+
+### Segment wise Sales & Profit
+![Segment wise Sales](images/Segment_wise_Sales___Profit.png)
+
+### Ship Mode wise Orders Count
+![Ship Mode Orders](images/Ship_Mode_wise_Orders_Count.png)
+
+---
+
+## 🐍 Python Charts
+
+### Category-wise Sales & Profit
+![Chart 1](images/chart1_category_sales_profit.png)
+
+### Region-wise Profit Analysis
+![Chart 2](images/chart2_region_profit.png)
+
+### Year-wise Sales & Profit Trend
+![Chart 3](images/chart3_yearly_trend.png)
+
+### Loss-Making Sub-Categories & Avg Discount
+![Chart 4](images/chart4_loss_subcategory.png)
+
+### Segment-wise Distribution
+![Chart 5](images/chart5_segment_distribution.png)
+
+### Shipping Mode Analysis
+![Chart 6](images/chart6_shipping_mode.png)
+
+---
+
+## 🔄 Project Workflow
+
 Raw Data (CSV)
-     ↓
+↓
 Python — Data Cleaning + Feature Engineering + Visualization
-     ↓
+↓
 Cleaned CSV → SQL Server → Business Queries
-     ↓
+↓
 Excel → Pivot Table Summaries
-     ↓
+↓
 Power BI → Interactive Dashboard
 
-📊 Key Business Insights
-#Insight1💻 Technology is the top revenue category — $4.74M in sales2🪑 Furniture has highest avg discount (16.8%) → lowest profit margin3🌍 Central region leads in profit — $311K4⚠️ Southeast Asia has 27.2% avg discount → only $17K profit5🔴 Turkey is the biggest loss market — (-$98K) profit6📉 Tables sub-category carries 29% avg discount → net loss7🚨 24.46% of all orders are loss-making — 1 in every 4 orders!8🚚 Standard Class shipping dominates — 60% of total orders
+---
 
-🗂️ SQL Analysis — 5 Sections
+## 📊 Key Business Insights
 
-Database Setup — Create and use GlobalStoreDB
-Table Creation — Schema with derived columns (ProfitMargin, IsLoss, ShippingDays)
-Data Verification — Row count + data preview
-Business Analysis Queries — Category, Country (top/loss), Shipping, Loss sub-categories
-Key Business Insights — Summary comments
+| # | Insight |
+|---|---------|
+| 1 | 💻 **Technology** is the top revenue category — **$4.74M** in sales |
+| 2 | 🪑 **Furniture** has highest avg discount (16.8%) → lowest profit margin |
+| 3 | 🌍 **Central** region leads in profit — **$311K** |
+| 4 | ⚠️ **Southeast Asia** has 27.2% avg discount → only **$17K** profit |
+| 5 | 🔴 **Turkey** is the biggest loss market — **(-$98K)** profit |
+| 6 | 📉 **Tables** sub-category carries 29% avg discount → net loss |
+| 7 | 🚨 **24.46%** of all orders are loss-making — 1 in every 4 orders! |
+| 8 | 🚚 **Standard Class** shipping dominates — **60%** of total orders |
 
+---
 
-🐍 Python Notebook — 8 Sections
+## 🗂️ SQL Analysis — 5 Sections
 
-Data Loading
-Exploratory Data Analysis (EDA)
-Data Cleaning
-Feature Engineering
-Save Cleaned Data
-Data Analysis (7 sub-analyses)
-Data Visualization (6 charts)
-Key Business Insights
+1. **Database Setup** — Create and use `GlobalStoreDB`
+2. **Table Creation** — Schema with derived columns (ProfitMargin, IsLoss, ShippingDays)
+3. **Data Verification** — Row count + data preview
+4. **Business Analysis Queries** — Category, Country (top/loss), Shipping, Loss sub-categories
+5. **Key Business Insights** — Summary comments
 
+---
 
-📦 Dataset
+## 🐍 Python Notebook — 8 Sections
 
-Source: Kaggle — Global Superstore Dataset
-Rows: 51,290 orders
-Columns: 24 (+ 5 engineered features)
-Coverage: Global markets, 2011–2014
+1. Data Loading
+2. Exploratory Data Analysis (EDA)
+3. Data Cleaning
+4. Feature Engineering
+5. Save Cleaned Data
+6. Data Analysis (7 sub-analyses)
+7. Data Visualization (6 charts)
+8. Key Business Insights
 
+---
 
-👤 Author
+## 📦 Dataset
+
+- **Source:** Kaggle — Global Superstore Dataset
+- **Rows:** 51,290 orders
+- **Columns:** 24 (+ 5 engineered features)
+- **Coverage:** Global markets, 2011–2014
+
+---
+
+## 👤 Author
+
 **Imran Makandar**
 📧 imranmakandar699423@gmail.com
-🔗 www.linkedin.com/in/imrannoorallimakandar
-🐙 github.com/Imran225599
+🔗 [LinkedIn](https://www.linkedin.com/in/imrannoorallimakandar)
+🐙 [GitHub](https://github.com/Imran225599)
