@@ -67,7 +67,7 @@ Global-Superstore-Analytics/
 ![Region wise Sales](images/Region%20wise%20Sales%20+%20Profit.png)
 
 ### Segment wise Sales & Profit
-![Segment wise Sales](images/Segment%20wise%20Sales%20+%20Profit.png)
+![Segment wise Sales](images/Segment%20wise%20Sales%20and%20Profit.png)
 
 ### Ship Mode wise Orders Count
 ![Ship Mode Orders](images/Ship%20Mode%20wise%20Orders%20Count.png)
