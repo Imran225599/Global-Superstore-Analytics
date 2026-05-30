@@ -59,17 +59,18 @@ Global-Superstore-Analytics/
 
 ## 📊 Excel Pivot Analysis
 
+
 ### Category wise Sales & Profit
-![Category wise Sales](images/Category wise Sales.png)
+![Category wise Sales](images/Category%20wise%20Sales.png)
 
 ### Region wise Sales & Profit
-![Region wise Sales](images/Region wise Sales + Profit.png)
+![Region wise Sales](images/Region%20wise%20Sales%20+%20Profit.png)
 
 ### Segment wise Sales & Profit
-![Segment wise Sales](images/Segment wise Sales + Profit.png)
+![Segment wise Sales](images/Segment%20wise%20Sales%20+%20Profit.png)
 
 ### Ship Mode wise Orders Count
-![Ship Mode Orders](images/Ship Mode wise Orders Count.png)
+![Ship Mode Orders](images/Ship%20Mode%20wise%20Orders%20Count.png)
 
 ---
 
