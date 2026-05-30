@@ -20,27 +20,29 @@ End-to-end data analysis of **51,290+ global retail orders** across multiple mar
 ## 📁 Project Structure
 
 
+```
 Global-Superstore-Analytics/
 │
 ├── Data/
-│   ├── Global_Superstore2.csv              # Raw dataset
-│   └── Global_Superstore_Final.csv         # Cleaned dataset
+│   ├── Global_Superstore2.csv
+│   └── Global_Superstore_Final.csv
 │
 ├── notebooks/
-│   └── Global_Superstore_Analysis.ipynb    # Python EDA + cleaning + charts
+│   └── Global_Superstore_Analysis.ipynb
 │
 ├── sql/
-│   └── GlobalStoreDB_Analysis.sql          # SQL queries (5 sections)
+│   └── GlobalStoreDB_Analysis.sql
 │
 ├── excel/
-│   └── Global_Superstore_Analysis.xlsx     # Pivot table analysis
+│   └── Global_Superstore_Analysis.xlsx
 │
 ├── dashboards/
-│   └── Global_Superstore_Dashboard.pbix    # Power BI dashboard
+│   └── Global_Superstore_Dashboard.pbix
 │
-├── images/                                 # All screenshots and charts
+├── images/
 │
 └── README.md
+```
 
 
 ---
@@ -58,16 +60,16 @@ Global-Superstore-Analytics/
 ## 📊 Excel Pivot Analysis
 
 ### Category wise Sales & Profit
-![Category wise Sales](images/Category_wise_Sales.png)
+![Category wise Sales](images/Category wise Sales.png)
 
 ### Region wise Sales & Profit
-![Region wise Sales](images/Region_wise_Sales___Profit.png)
+![Region wise Sales](images/Region wise Sales + Profit.png)
 
 ### Segment wise Sales & Profit
-![Segment wise Sales](images/Segment_wise_Sales___Profit.png)
+![Segment wise Sales](images/Segment wise Sales + Profit.png)
 
 ### Ship Mode wise Orders Count
-![Ship Mode Orders](images/Ship_Mode_wise_Orders_Count.png)
+![Ship Mode Orders](images/Ship Mode wise Orders Count.png)
 
 ---
 
