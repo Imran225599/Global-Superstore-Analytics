@@ -50,12 +50,6 @@ Global-Superstore-Analytics/
 ### Sales Overview
 ![Sales Overview](images/Sales%20Overview.png)
 
-### Category wise Sales
-![Category wise Sales](images/Category%20wise%20Sales.png)
-
-### Region wise Sales & Profit
-![Region wise Sales](images/Region%20wise%20Sales%20+%20Profit.png)
-
 ### Detailed Analysis
 ![Detailed Analysis](images/Detailed%20Analysis.png)
 
